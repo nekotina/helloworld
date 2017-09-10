@@ -1,4 +1,4 @@
+system/dao/UserDao.class
+system/model/User.class
 system/controller/UserController.class
 system/service/UserService.class
-system/model/User.class
-system/dao/UserDao.class

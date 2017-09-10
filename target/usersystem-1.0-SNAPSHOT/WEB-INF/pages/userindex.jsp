@@ -10,10 +10,19 @@
 <head>
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
-    Hello World!!
+    <div class="container">
+
+        <div class="starter-template">
+            <h1>Hello world</h1>
+            <p>Message: ${message}</p>
+        </div>
+
+    </div>
+
+    <script src="/webjars/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
 </body>
 </html>

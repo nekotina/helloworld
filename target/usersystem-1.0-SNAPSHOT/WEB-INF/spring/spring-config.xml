@@ -6,7 +6,12 @@
 
     <mvc:annotation-driven/>
     <context:component-scan base-package="system"/>
+    <mvc:resources mapping="/webjars/**" location="/webjars/"/>
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+
     <mvc:view-controller path="/" view-name="userindex"/>
+
+
 
     <bean id="resolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
